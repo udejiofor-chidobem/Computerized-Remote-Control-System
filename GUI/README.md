@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-data "assets/;assets/" --icon=".\assets\frame0\crcs-icon.png" --name="CRCS" --version-file=".\version.txt" .\gui.py
